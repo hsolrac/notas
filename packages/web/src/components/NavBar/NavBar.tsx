@@ -12,7 +12,6 @@ export default NavBar;
 
 const styles = {
   nav: {
-    position: "fixed",
     top: 0,
     left: 0,
     width: "100%",

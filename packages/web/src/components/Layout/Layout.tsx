@@ -8,7 +8,7 @@ const Layout: FC<{ children: ReactNode }> = ({ children }) => {
 
   const shouldRenderNavBar = !pathsNotRenderNavBar.includes(location.pathname);
   return (
-    <div>
+    <div className="min-h-screen">
       {shouldRenderNavBar && <NavBar />}
 
       <main>{children}</main>
